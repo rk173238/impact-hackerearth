@@ -1,0 +1,29 @@
+.root {
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: red; */
+    height: 100%;
+    
+
+}
+.details {
+    display: flex;
+    flex-direction:column;
+    /* width: 100%; */
+  }
+.content {
+    flex: 1 0 auto;
+    padding: 0;
+}
+.cover{
+    /* width: 151; */
+    height: 125px;
+}
+
+@media (max-width: 600px) {
+    .cover {
+        height: 500px;
+    }
+  }
+
+

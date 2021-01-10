@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: red; */
+    /* height: 300px; */
+    /* margin-top: 50px; */
+}
+.candidateDetails {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+  }
+.content {
+    flex: 1 0 auto;
+    padding: 0;
+}
+.imgcard img {
+    /* width: 151;
+    height: 500px; */
+    /* width: 400px;
+    height: 400px; */
+}
+.buttons{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-bottom: auto;
+    height: 100px;
+}
+
+@media (max-width: 600px) {
+    .card {
+        display: inline-block;
+        /* flex-direction: row; */
+        /* background-color: red; */
+        /* height: 100%; */
+        /* margin-top: 50px; */
+        z-index: 1;
+        /* height: 300px; */
+    }
+  }
+
+
